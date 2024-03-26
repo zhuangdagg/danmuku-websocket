@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "Bilibili Player Danmaku Websocket Component v1.4.3",
   "type": "module",
-  "main": "./dist/bundle.js",
-  "module": "./dist/bundle.ejs",
+  "main": "./dist/danmaku-websocket.cjs.js",
+  "module": "./dist/danmaku-websocket.esm-bundle.js",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "bootstrap": "npm install",
     "build": "rollup --config rollup.config.js --silent"
+  },
+  "repository": {
+    "type": "gitee",
+    "url": "git@gitee.com:blunt0828/danmuku-websocket.git"
   },
   "keywords": [
     "bilibili",
@@ -19,7 +23,7 @@
   ],
   "author": "",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "pako": "^2.1.0"
   },
   "devDependencies": {
