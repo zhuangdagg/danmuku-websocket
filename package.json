@@ -1,10 +1,13 @@
 {
-  "name": "@blunt0828/danmaku-websocket",
+  "name": "@akjs/danmaku-websocket",
   "version": "1.0.0",
   "description": "Bilibili Player Danmaku Websocket Component v1.4.3",
   "type": "module",
-  "main": "dist/bundle.js",
-  "module": "dist/bundle.ejs",
+  "main": "./dist/bundle.js",
+  "module": "./dist/bundle.ejs",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "bootstrap": "npm install",
     "build": "rollup --config rollup.config.js --silent"
