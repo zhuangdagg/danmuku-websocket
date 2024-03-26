@@ -1,0 +1,28 @@
+{
+  "name": "@blunt0828/danmaku-websocket",
+  "version": "1.0.0",
+  "description": "Bilibili Player Danmaku Websocket Component v1.4.3",
+  "type": "module",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.ejs",
+  "scripts": {
+    "bootstrap": "npm install",
+    "build": "rollup --config rollup.config.js --silent"
+  },
+  "keywords": [
+    "bilibili",
+    "danmaku",
+    "websocket"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pako": "^2.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.13.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.3"
+  }
+}
